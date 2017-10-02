@@ -1,0 +1,77 @@
+body
+ {font-family: georgia, times, serif; 
+ background-color: #ff4312;
+ width: 960px;
+ margin: 0 auto;}
+h1, h2
+ {font-family: arial, veranda, sans-serif; 
+ text-transform: uppercase; 
+ letter-spacing: 0.2em;} 
+h1
+ {text-align: center;
+ position: fixed;
+ top: 0px;
+ left: 0px;
+ margin: 0px;
+ padding: 10px;
+ width: 100%;
+ background-color: #aa5039;
+ z-index: 10;
+ border-style: outset; 
+ border-color: #e13b0f; 
+ padding: 10px; 
+ box-shadow: 5px 5px 5px 5px #734f45}
+p.about
+{margin-top: 100px;}
+#pic1
+ {float: right;
+ margin: 0 0 10px 10px;}
+.pic1
+ {clear: left;}
+ul
+ {list-style-type: circle;}
+.hobbies
+ {margin-top: 100px;}
+.movies
+ {list-style-type: square;}
+.television
+ {list-style-type: disc;}
+#pic2
+ {float: right;
+ clear: right;}
+#pic3
+ {border-style: none;
+ padding: 30px;}
+table
+ {margin: auto;
+ width: 600px; 
+ height: 250; 
+ border: solid; 
+ border-color: black; 
+ background-color: floralwhite;}
+tr.even
+ {background-color: gold;}
+.submit
+ {display: inline-block;
+ padding: 15px 25px;
+ font-size: 24px;
+ margin: auto;
+ cursor: pointer;
+ text-align: center;
+ text-decoration: none;
+ outline: none;
+ color: #fff;
+ background-color: #4CAF50;
+ border: none;
+ border-radius: 15px;
+ box-shadow: 0 9px #999;}
+.submit:hover 
+ {background-color: #3e8e41}
+.submit:active 
+ {background-color: #3e8e41;
+ box-shadow: 0 5px #666;
+ transform: translateY(4px);}
+.email
+ {border-style: dashed;
+ border-color: chartreuse;
+ padding: 10px;}
